@@ -69,8 +69,8 @@ Each directory corresponds to a **distinct phase of engineering maturity**, from
 
 ## Tools & Methods
 - **Simulation:** Keysight ADS (S-parameters, harmonic balance)
-- **RF Analysis:** Gain, noise, isolation, LO leakage, spur behavior
-- **Hardware Platform:** X-Microwave modular RF components
+- **RF Analysis:** Gain, noise, isolation, spur behavior
+- **Hardware Platform:** X-Microwave modular RF components & custom-built external blocks
 - **Measurement Planning:** VNA-based characterization (planned)
 
 ---
@@ -92,11 +92,6 @@ Measured results and correlation with simulations will be added once testing is 
 - Simulation-driven design decisions (not datasheet-only design)  
 - Understanding of FMCW radar RF challenges (LO leakage, isolation, spur control)  
 - Ability to transition from theory → simulation → hardware  
-
----
-
-## Notes
-This repository is intentionally structured to reflect **professional RF design workflows**, not academic homework. Design decisions, tradeoffs, and assumptions are documented explicitly to make the engineering reasoning transparent.
 
 ---
 
